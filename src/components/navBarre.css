@@ -1,0 +1,105 @@
+.fenetreDesMenus{
+    inline-size: 250px;
+    block-size: 100vh;
+    background-color: #041737; 
+    position: fixed;
+    inset-block-start: 0px;
+    inset-inline-start: 0px;
+    inset-inline-start: 0px;
+}
+
+.databotLogo{
+    inline-size: 100px;
+    block-size: 45;
+    margin-block-start: 20px;
+    margin-inline-start: 70px;
+}
+
+/* liste non ordonné du dashboard */
+.dtDashBoard{ 
+    list-style-type: none;
+    margin-block-start: 45px;
+    margin-inline-start: 20px;
+}
+
+.iconedashboard,.historicalIcon{
+    inline-size: 15px;
+    block-size: 15px;
+    position: relative;
+    inset-block-start: 2px;
+    margin-inline-end: 10px;
+}
+
+/*personnalisation du lien dashBoard*/
+.linkDashboard, .linkSPace, .historicalLink, .dev{
+    font-size: 14px;
+    text-decoration: none;
+    color: White;
+}
+.linkDashboard:active, .linkSPace:active, .historicalLink:active{
+    color: White;
+}
+.linkDashboard:focus, .linkSPace:focus, .linkSPace:focus{
+    color: White;
+}
+
+.line{
+    inline-size: 120px;
+    border: 1px solid #D0DC18;
+    margin-block-start: 30px;
+    position: relative;
+    inset-inline-start: 65px;
+}
+
+.dtEspaces{ 
+    list-style-type: none;
+    margin-block-start: 15px;
+    margin-inline-start: 20px;
+}
+
+.arrowIcon{
+    inline-size: 25px;
+    block-size: 25px;
+    margin-inline-end: 10px;
+    position: relative;
+    inset-block-start: 8px;
+}
+
+.ulMenu{
+    color: white;
+}
+
+.st{
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
+
+.stLink, .devLink{
+    font-size: 14px;
+    text-decoration: none;
+    color: white
+}
+
+.dthistorical{
+    list-style-type: none;
+    margin-block-start: 20px;
+    margin-inline-start: 20px;
+}
+
+.databot{
+    inline-size: 250px;
+    block-size: 200px;
+    position: fixed;
+    inset-block-end: 0px;
+    inset-inline-start: 0px;
+
+}
+
+/* Style css de la barre de selection */
+.selected {
+    background-color: rgba(45, 153, 199, 0.5); /* Couleur de fond pour mettre en évidence */
+    color: #fff; /* Couleur du texte pour mettre en évidence */
+    font-weight: bold; /* Texte en gras pour mettre en évidence */
+    padding: 5px 4px 5px 2px;
+    border-radius: 5px;
+  }

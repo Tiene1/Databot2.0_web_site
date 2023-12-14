@@ -1,0 +1,19 @@
+.co2_chart{
+    inline-size: 382px;
+    block-size: 245px;
+    position: fixed;
+    inset-block-start: 172px;
+    inset-inline-start: 260px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.co2_title{
+    font-size: 12px;
+    width: 180px;
+    position: relative;
+    top: 10px;
+    left: 110px;
+}
+  

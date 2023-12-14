@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1890fd88.css",
+    "main.js": "/static/js/main.51c3995d.js",
+    "static/js/787.9bd965af.chunk.js": "/static/js/787.9bd965af.chunk.js",
+    "static/media/databot.png": "/static/media/databot.c5a1a5075edcd95ad072.png",
+    "static/media/databotLogo.png": "/static/media/databotLogo.35967678dd2a66f48562.png",
+    "static/media/chats_icon.png": "/static/media/chats_icon.11548d265e3077233a6c.png",
+    "static/media/CO2_icon.png": "/static/media/CO2_icon.c0544aa80b2d5972c946.png",
+    "static/media/voc_icon.png": "/static/media/voc_icon.872ecf62932e8337dc54.png",
+    "static/media/humidity_icon.png": "/static/media/humidity_icon.354010f7c78dd502036b.png",
+    "index.html": "/index.html",
+    "main.1890fd88.css.map": "/static/css/main.1890fd88.css.map",
+    "main.51c3995d.js.map": "/static/js/main.51c3995d.js.map",
+    "787.9bd965af.chunk.js.map": "/static/js/787.9bd965af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1890fd88.css",
+    "static/js/main.51c3995d.js"
+  ]
+}

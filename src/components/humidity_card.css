@@ -1,0 +1,76 @@
+.humidity_card{
+    inline-size: 250px;
+    block-size: 60px;
+    position: fixed;
+    inset-block-start: 96px;
+    inset-inline-start: 790px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.humidity_icon{
+    inline-size: 60px;
+    block-size: 50px;
+    border: none;
+    position: fixed;
+    inset-block-start: 102px;
+    inset-inline-start: 795px;
+    background-color: rgb(135, 206, 255, 0.4);
+    border-radius: 10px;
+}
+
+.humidity{
+    font-weight: bold; 
+    color: gray;
+    font-size: 18px;
+    font-weight: 10px;
+    border: none;
+    position: fixed;
+    inset-block-start: 102px;
+    inset-inline-start: 871px;
+}
+
+.humidity_value{
+    font-weight: bold; 
+    font-size: 15px;
+    font-weight: 10px;
+    border: none;
+    position: fixed;
+    inset-block-start: 132px;
+    inset-inline-start: 871px;
+}
+
+.pourcentage{
+    font-weight: bold;
+    font-weight: 10px;
+    border: none;
+    position: fixed;
+    inset-block-start: 132px;
+    inset-inline-start: 921px;
+}
+
+.humidity_alert{
+    inline-size: 15px;
+    block-size: 15px;
+    position: fixed;
+    inset-block-start: 102px;
+    inset-inline-start: 1018px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(65, 253, 65);
+}
+
+.alert-active3 {
+    background-color: red;
+    animation: blink 500ms infinite alternate;
+}
+
+/* Définition de l'animation de clignotement */
+@keyframes blink {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: white;
+    }
+}

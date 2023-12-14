@@ -1,0 +1,23 @@
+.voc_chart{
+    inline-size: 382px;
+    block-size: 245px;
+    position: fixed;
+    inset-block-start: 172px;
+    inset-inline-start: 658px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.voc_title{
+    font-size: 12px;
+    width: 180px;
+    position: relative;
+    top: 10px;
+    left: 110px;
+}
+
+.recharts-area-curve {
+    stroke: rgb(173, 255, 47, 0.7); 
+}
+

@@ -1,0 +1,18 @@
+.bar_chart{
+    inline-size: 647px;
+    block-size: 245px;
+    position: fixed;
+    inset-block-start: 433px;
+    inset-inline-start: 658px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.bar_chart_title{
+    font-size: 12px;
+    width: 250px;
+    position: relative;
+    top: 10px;
+    left: 210px;
+}
+ 

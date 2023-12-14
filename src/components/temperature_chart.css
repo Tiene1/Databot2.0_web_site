@@ -1,0 +1,19 @@
+.temperature_chart{
+    inline-size: 382px;
+    block-size: 245px;
+    position: fixed;
+    inset-block-start: 433px;
+    inset-inline-start: 260px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.temperature_title{
+    font-size: 12px;
+    width: 180px;
+    position: relative;
+    top: 10px;
+    left: 145px;
+}
+ 

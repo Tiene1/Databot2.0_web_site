@@ -1,0 +1,76 @@
+.temperature_card{
+    inline-size: 250px;
+    block-size: 60px;
+    position: fixed;
+    inset-block-start: 96px;
+    inset-inline-start: 1055px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.temperature_icon{
+    inline-size: 60px;
+    block-size: 50px;
+    border: none;
+    position: fixed;
+    inset-block-start: 102px;
+    inset-inline-start: 1060px;
+    background-color: rgb(255, 255, 0, 0.4);
+    border-radius: 10px;
+}
+
+.temperature{
+    font-weight: bold; 
+    color: gray;
+    font-size: 18px;
+    font-weight: 10px;
+    border: none;
+    position: fixed;
+    inset-block-start: 102px;
+    inset-inline-start: 1136px;
+}
+
+.temperature_value{
+    font-weight: bold; 
+    font-size: 15px;
+    font-weight: 10px;
+    border: none;
+    position: fixed;
+    inset-block-start: 132px;
+    inset-inline-start: 1136px;
+}
+
+.degre{
+    font-weight: bold;
+    font-weight: 10px;
+    border: none;
+    position: fixed;
+    inset-block-start: 132px;
+    inset-inline-start: 1186px;
+}
+
+.temperature_alert{
+    inline-size: 15px;
+    block-size: 15px;
+    position: fixed;
+    inset-block-start: 102px;
+    inset-inline-start: 1283px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(65, 253, 65);
+}
+
+.alert-active4 {
+    background-color: red;
+    animation: blink 500ms infinite alternate;
+}
+
+/* Définition de l'animation de clignotement */
+@keyframes blink {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: white;
+    }
+}

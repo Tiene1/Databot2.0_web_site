@@ -1,0 +1,34 @@
+.chats_card{
+    inline-size: 1045px;
+    block-size: 40px;
+    position: fixed;
+    inset-block-start: 46px;
+    inset-inline-start: 260px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.chats_icon{
+    inline-size: 35px;
+    block-size: 35px;
+    position: relative;
+    inset-block-start: 4px;
+    inset-inline-start: 10px;
+}
+
+.chats_line{
+    inline-size: 1px;
+    block-size: 30px;
+    position: relative;
+    inset-block-end: 35px;
+    inset-inline-start: 55px;
+    background-color: #378AFF;
+}
+
+.chats{
+    inline-size: 970px;
+    block-size: 30px;
+    position: relative;
+    inset-block-end: 64px;
+    inset-inline-start: 65px;
+}

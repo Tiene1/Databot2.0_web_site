@@ -1,0 +1,35 @@
+.tableau-container{
+    position:relative;
+    left: 250px;
+    top: 60px;
+}
+
+table {
+    width: 1050px;
+    border-collapse: collapse;
+  }
+
+  thead {
+    position: sticky;
+    top: 0;
+    background-color: rgb(135, 206, 255);
+    z-index: 1; /* Ajoutez cette ligne pour placer la ligne fixe au-dessus du reste du tableau */
+  }
+  
+  th, td {
+    padding: 8px; /* Ajoutez un remplissage pour augmenter l'espacement entre les colonnes */
+    text-align: center;
+    border: 1px solid #ddd; /* Ajoutez une bordure pour délimiter les cellules */
+  }
+  
+  
+th:first-child {
+  position: sticky;
+  left: 0;
+  background-color: rgb(135, 206, 255);
+  z-index: 2; /* Ajoutez cette ligne pour placer la colonne fixe à gauche du reste du tableau */
+}
+
+th:first-child::after {
+  content: '\00a0'; /* Ajoutez un espace pour que le texte ne soit pas coupé */
+}

@@ -1,0 +1,23 @@
+.humidity_chart{
+    inline-size: 250px;
+    block-size: 245px;
+    position: fixed;
+    inset-block-start: 172px;
+    inset-inline-start: 1055px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 12px;
+    width: 130px;
+    position: relative;
+    top: 10px;
+    left: 85px;
+}
+
+.pie{
+    position: relative;
+    top: 20px;
+    left: 40px;
+}

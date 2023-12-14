@@ -1,0 +1,11 @@
+.titrehistorique{
+    margin-block-start: 0px;
+    margin-inline-start: 250px;
+    block-size: 25px;
+    inline-size: 730px;
+    position: fixed;
+    inset-block-start: 10px;
+    inset-inline-start: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
